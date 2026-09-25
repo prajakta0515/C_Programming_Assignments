@@ -1,0 +1,16 @@
+//Calculate the factorial of given number
+
+#include <stdio.h>
+
+int main() {
+	int i,fact,n;
+	printf("Enter a number: ");
+	scanf("%d",&n);
+	fact=1;
+	for(i=1;i<=n;i++){
+		fact=fact*i;
+	}
+	printf("Factorial of the number is %d\n",fact);
+	return 0;
+}
+
